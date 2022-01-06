@@ -2,7 +2,7 @@ h1{
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
 }
-h2{
+.section2-heading{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 45px;
     text-align: center;
@@ -72,4 +72,19 @@ p{
 }
 .section2-div3{
     background-color: #fcfcda;
+}
+.section3{
+    display: flex;
+    padding: 10% 10%;
+}
+.section3-heading{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section3-div{
+    width: 50%;
+}
+.section3 img{
+    width: 80%;
 }
