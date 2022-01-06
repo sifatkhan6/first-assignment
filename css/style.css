@@ -4,7 +4,7 @@ h1{
 }
 p{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 20px;
 }
 .purple-color{
@@ -27,4 +27,14 @@ section{
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: 400;
+}
+#border{
+    border-left: 4px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(#800080, #b8632a) 50;
+    border-image-slice: 1;
+    padding-left: 15px;
+}
+.section-1-last-paragraph{
+    padding-top: 20px;
 }
