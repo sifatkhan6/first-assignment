@@ -74,8 +74,13 @@ p{
     background-color: #fcfcda;
 }
 .section3{
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
     display: flex;
     padding: 10% 10%;
+    margin-left: 10px;
 }
 .section3-heading{
     font-family: 'PT Sans Narrow', sans-serif;
@@ -85,6 +90,49 @@ p{
 .section3-div{
     width: 50%;
 }
+.section3-div2{
+    padding-right: 3%;
+}
 .section3 img{
-    width: 80%;
+    width: 70%;
+}
+.section3-div3{
+    margin-left: -50px;
+}
+.section4{
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 7%;
+    margin-right: 30px;
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 18%;
+}
+.section4 img{
+    width: 70%;
+}
+.section4-div{
+    margin: 15px;
+}
+.section4-div1{
+    padding-right: 10%;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.f-heading{
+    font-style: italic;
+}
+.f-color{
+    color: purple;
+}
+.f-pa{
+    color: white;
+    font-size: 10px;
 }
